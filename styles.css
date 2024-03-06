@@ -1,14 +1,49 @@
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: slategray;
+    color:rebeccapurple;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 body {
     color:white;
     background-color: black;
 }
 
-nav {
-    color: lightcoral;
-    font-size: 24px;
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
 
 h1 {
     color : greenyellow;
     font-size : 16px;
+}
+
+main {
+ max-width: 840px;   
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    
+    color: lightcoral;
+    font-size: 24px;
+}
+
+p {
+    padding: 0;
 }
