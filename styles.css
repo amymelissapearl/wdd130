@@ -1,97 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-    --primary-color:#ffc300;
-    --secondary-color:#ffd60a;
-    --accent1-color:#003566;
-    --accent2-color:#ffc300;
-    --background-color:#000814;
-    
-    --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Roboto', serif;
+  --primary-color: #ffc300;
+  --secondary-color: #ffd60a;
+  --accent1-color: #003566;
+  --accent2-color: #ffc300;
+  --background-color: #000814;
 
-    --nav-background-color: #001d3d;
-    --nav-link-color:#ffc300;
-    --nav-hover-link-color:#83c5be;
-    --nav-hover-background-color:#006d77;
+  --heading-font: "Roboto", serif;
+  --paragraph-font: "Roboto", serif;
+
+  --nav-background-color: #001d3d;
+  --nav-link-color: #ffc300;
+  --nav-hover-link-color: #83c5be;
+  --nav-hover-background-color: #006d77;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--paragraph-font);
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: var(--nav-background-color);
-    color:var(--nav-link-color);
-    text-align: center;
+  width: 20em;
+  text-align: center;
+
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: var(--nav-background-color);
+  color: var(--nav-link-color);
+}
+
+aside h2 {
+  position: absolute;
+  top: 55px;
+  left: 650px;
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 
 body {
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-    max-width: 960px;
-    padding:20px;
-    background: var(--background-color);
+  font-family: var(--paragraph-font);
+  color: var(--primary-color);
+  max-width: 960px;
+  padding: 20px;
+  background: var(--background-color);
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
 
 header {
-    padding: 20px;
-    background-color: var(--accent1-color);
+  padding: 20px;
+  background-color: var(--accent1-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  font-weight: 300;
 }
 
 h1 {
-    font-size : 16px;
+  font-size: 16px;
 }
 
 main {
- max-width: 840px;   
+  max-width: 840px;
 }
 
 main img {
-    width: 150px;
-    height: auto;
+  float: right;
+  width: 150px;
+  height: auto;
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size:1.2rem;
-    display:flex;
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
 }
 
 nav a {
-    display:block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
 
 p {
-    font-family: var(--paragraph-font);
-    padding:25px;
+  font-family: var(--paragraph-font);
+  padding: 25px;
+}
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }

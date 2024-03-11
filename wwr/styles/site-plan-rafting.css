@@ -35,10 +35,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-.round {
-    border-radius: 50%;
-  }
-
 
 nav {
     background-color: var(--nav-background-color);
@@ -65,4 +61,10 @@ nav a:hover {
 p {
     font-family: var(--paragraph-font);
     padding:25px;
+}
+
+/* Class Selectors */
+
+.round {
+    border-radius: 50%;
 }
