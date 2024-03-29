@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple web site to demonstrate the skills of HTML, CSS and JS.">
+        <meta
+        name="author" content="Amy Melissa Pearl">
+
+        <!----
+                                                        <link rel="preconnect" href="https://fonts.googleapis.com">
+                                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                                        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+                                                        ---->
+        <link rel="stylesheet" href="./styles/quiz.css">
+
+        <title>Amy Melissa Pearl | WDD 130</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./quiz.html">Quiz</a>
+                <a href="./wwr/">Rafting Site</a>
+                <a href="./wwr/site-plan-rafting.html">Rafting Site Plan</a>
+                <a href="https://www.linkedin.com/in/amy-pearl-922aab35/">LinkedIn</a>
+                <a href="https://facebook.com">Facebook</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Basic HTML and CSS Quiz</h1>
+            <form class="quiz-container">
+                <div class="quiz-item">
+                    <br><label for="q1">What does the acronym CSS stand for?</label>
+                    <input id="q1" name="q1" type="text">
+                </div>
+                <div class="quiz-item">
+                    <br><label for="q2">How are id and class attributes selected in CSS?</label>
+                    <textarea id="q2" name="q2" rows="10" cols="30"></textarea>
+                </div>
+                <div class="quiz-item">
+                    <br><label for="q3">Which of the following is a valid CSS comment?</label>
+                    <select id="q3" name="q3">
+                        <option value="A">A.</option>
+                        <option value="B">B.</option>
+                        <option value="C">C.</option>
+                        <option value="C">D.</option>
+                    </select>
+                </div>
+                <div class="quiz-item">
+                    <br><label for="q4">What is the bottom margin given this declaration?</label>
+                    <input id="q4" name="q4" type="number">
+                    <button type="submit" onclick="alert('Submitted!')">Submit Quiz</button>
+                </div>
+            </form>
+
+        </main>
+        <footer>
+            <p>©️2024 Amy Melissa Pearl - Durban, South Africa</p>
+        </footer>
+    </body>
+</html>
