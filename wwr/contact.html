@@ -1,35 +1,130 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A simple web site to demonstrate the skills of HTML, CSS and JS.">
-  <meta name="author" content="Amy Melissa Pearl">
-  <link rel="stylesheet" href="styles/site-plan-rafting.css">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="White Water Rafting - Contact details for White Water Rafting CC.">
+        <meta name="author" content="Amy Melissa Pearl">
+        <link rel="stylesheet" href="styles/rafting.css">
 
-  <title>Amy Melissa Pearl | Site Plan</title>
-  
-</head>
-<body>
-  <header>
 
-   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="trips.html">Trips</a>
-    <a href="contact.html">Contact Us</a>
-  </nav>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-  </header>
-  <main>
+        <title>White Water Rafting | Contact Us</title>
 
-  </main>
- <footer>
-    <p>©️2024 <a href="../index.html">Amy Melissa Pearl: Site Home - Durban, South Africa</a></p>
-  </footer>
-</body>
+    </head>
+    <body></body>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="WWR logo" width="100">
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3>Company Information</h3>
+                <div class="company-container">
+
+                    <div class="company-item">
+                        <div class="lhs">Address</div>
+                        <div class="rhs">Idaho Falls</div>
+
+                    </div>
+                    <div class="company-item">
+                        <div class="lhs">Phone</div>
+                        <div class="rhs">000-000-0000</div>
+
+                    </div>
+                    <div class="company-item">
+                        <div class="lhs">Email</div>
+                        <div class="rhs">info@wwr.com</div>
+
+                    </div>
+                </div>
+                <div class="company-item">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2764.369658600639!2d-115.59940192465682!3d46.14338468786835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535f61d5901871f9%3A0x38125b45f23f18c0!2sThree%20Rivers%20Rafting!5e0!3m2!1sen!2sza!4v1711858417540!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <section>
+                <h3>Employees</h3>
+                <div class="employee-container">
+                    <figure class="employee-item">
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="./images/img_staff1.jpeg" >
+                            <img src="./images/img_staff1.jpeg" width="100" alt="Staff: Staff1">
+                          </picture>
+                        <figcaption>Staff#1</figcaption>
+                    </figure>
+                     
+
+                    <figure class="employee-item">
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="./images/img_staff2.jpeg" >
+                            <img src="./images/img_staff2.jpeg" width="100" alt="Staff: Staff2">
+                          </picture>
+                        <figcaption>Staff#2</figcaption>
+                    </figure>
+                     
+
+                    <figure class="employee-item">
+                        <picture>
+                            <source media="(min-width: 650px)" srcset="./images/img_staff3.jpeg" >
+                            <img src="./imagesimg_staff3.jpeg" width="100" alt="Staff: Staff3">
+                          </picture>
+                        <figcaption>Staff#3</figcaption>
+                    </figure>
+
+                </div>
+            </section>
+
+            <section>
+                <h3>Contact Us (Message) & Subscribe</h3>
+                <form class="subscribe-container">
+                    <div class="subscribe-item">
+                        <br><label for="q1">Username:</label>
+                        <input id="q1" name="q1" type="text">
+                    </div>
+                    <div class="subscribe-item">
+                        <br><label for="q2">Email:</label>
+                        <input id="q2" name="q2" type="email">
+                    </div>
+
+                    <div class="subscribe-item">
+                        <br><label for="q3">Message Purpose?</label>
+                        <select id="q3" name="q3">
+                            <option value="A">A. General Inquiry</option>
+                            <option value="B">B. Reservation Question</option>
+                            <option value="C">C. Website Suggestion</option>
+                        </select>
+                    </div>
+                    <div class="subscribe-item">
+                        <br><label for="q4">Message:</label>
+                        <textarea id="q4" name="q4" rows="10" cols="30"></textarea>
+                    </div>
+                    <div class="subscribe-item">
+                        <br><label for="q5">Please subscribe me to the monthly newsletter:</label>
+                        <input type="checkbox" id="q5" name="q5" checked>
+                    </div>
+                    <div class="subscribe-item">
+                        <br><label for="q6">Send Message?</label>
+                        <button type="submit" onclick="alert('Submitted!')">Submit</button>
+                    </div>
+                </form>
+            </section>
+
+
+        </main>
+        <footer>
+            <p>©️2024
+                <a href="../index.html">Amy Melissa Pearl: Site Home - Durban, South Africa</a>
+            </p>
+        </footer>
+    </body>
 </html>

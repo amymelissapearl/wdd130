@@ -3,33 +3,78 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A simple web site to demonstrate the skills of HTML, CSS and JS.">
+        <meta name="description" content="White Water Rafting - Home">
         <meta name="author" content="Amy Melissa Pearl">
-        <link rel="stylesheet" href="styles/site-plan-rafting.css">
+        <link rel="stylesheet" href="styles/rafting.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-        <title>Amy Melissa Pearl | Site Plan</title>
+        <title>White Water Rafting | Home</title>
 
     </head>
     <body>
         <header>
-
-            <nav>
+            <img src="images/logo.png" alt="WWR logo" width="100">
+            <nav class="navigation">
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
-
         </header>
-        <main></main>
-        <footer>
-            <p>©️2024
-                <a href="../index.html">Amy Melissa Pearl: Site Home - Durban, South Africa</a>
-            </p>
-        </footer>
+        <main>
+            <div class="hero">
+                <article>
+                    <h2>White Water Rafting For Teams</h2>
+                    <img src="images/happyclient.jpg" alt="background">
+                    <p>Serving the community in building confidence and teams that
+                                                                        are ready to tackle challenging waters.
+                        <br>Our professional training includes
+                                                                        customized solutions for the small and medium sized team.
+                    </p>
+                </article>
+            </div>
+
+            <section id="contact-cta-section" class="contact-cta-section">
+                <div class="wrapper-full">
+                    <div class="cta-wrapper">
+                        <div class="details-wrapper">
+                            <h2>Go Beyond - Book a
+                                <a href="trips.html">Trip here</a>!</h2>
+                            <p>A descriptive sentence for the Call To Action (CTA).</p>
+                        </div>
+                        <a class="blue-cta-button" href="#">Book Now!</a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="home-action">
+                <img src="images/hero_1024.jpg" alt="">
+
+            </div>
+
+            <form class="signup-container">
+                <div class="signup-item">
+                    <br><label for="q1">Name:</label>
+                    <input id="q1" name="q1" type="text">
+                </div>
+                <div class="signup-item">
+                    <br><label for="q1">Email:</label>
+                    <input id="q1" name="q1" type="email">
+                </div>
+                <div class="signup-item"></div>
+                <br><label for="q1">Confirm</label>
+                <button type="submit" onclick="alert('Submitted!')">Subscribe</button>
+            </div>
+        </form>
     </body>
+<footer>
+<p>©️2024
+    <a href="../index.html">Amy Melissa Pearl: Site Home - Durban, South Africa</a>
+</p>
+</footer>
+</body>
 </html>
